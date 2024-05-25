@@ -1,0 +1,89 @@
+@media(width < 2000px) {
+  .nav-link{
+    font-size: 10px
+  }
+}
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+  }
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(82, 3, 3);
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+  
+  nav {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 14px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .nav-link {
+    display: infine-block;
+    font-size: 39px;
+    text-decoration: none;
+    color: red;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+  }
+
+  main {
+    margin-top: 0px;
+    height: 11000px; 
+    background-color: rgb(119, 3, 3);
+    top: 100px;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  h1 {
+    width: 780px;
+    text-decoration: none;
+    color: red;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+  }
+
+  p1 {
+    width: 90%;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 5px;
+    font-size: 40px;
+  }
+
+  b {
+    font-size: 24px;
+    color: white
+  }
+
+  p {
+    color: white
+  }
+
+  ul {
+    font-size: 24px;
+    width: 90%;
+    color: white
+  }
